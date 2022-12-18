@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Floella's Portfolio // Web Developer</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
@@ -14,9 +14,9 @@
   <header>
     <h1>Floella's Portfolio</h1>
     <nav>
-      <a href="#">About me</a>
-      <a href="#">Word</a>
-      <a href="#">Resume</a>
+      <a href="#about">About me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact me</a>
     </nav>
   </header>
 
@@ -45,22 +45,28 @@
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2>Work</h2>
-      <div>
-        <a href="">
+      <div class="flex-container">
+        <a href="" class="flex-item weather">
          <div>
           <h3>Weather App</h3>        
          </div>
         </a>
 
-        <a href="">
+        <a href="" class=" flex-item calculator">
           <div>
            <h3>Calculator</h3>        
           </div>
          </a>
 
-         <a href="">
+         <a href="" class="flex-item landing">
           <div>
            <h3>Landing Page</h3>        
+          </div>
+         </a>
+
+         <a href="" class="flex-item game">
+          <div>
+           <h3>Game</h3>        
           </div>
          </a>
       </div>
@@ -70,12 +76,13 @@
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
       <div>
-        <p>
-          Mobile: +4479 8988 8907 <br>
-          Email: floellaotu@gmail.com 
-        </p>
+        <address>
+          <a href="tel:+44798899009988">079889900898</a>
+          <a href="mailto:floellaotu@gmail.com">floellaotu@gmail.com</a>
+        </address>
       </div>
     </section>
+    
   </main>
 </body>
 
